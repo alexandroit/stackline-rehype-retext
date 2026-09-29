@@ -1,0 +1,33 @@
+{
+  "repository": "alexandroit/stackline-rehype-retext",
+  "packages": [
+    {
+      "name": "@stackline/rehype-retext",
+      "path": "readme.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "rehype-retext",
+        "typescript",
+        "unified",
+        "rehype",
+        "rehype-plugin",
+        "retext",
+        "retext-plugin",
+        "html",
+        "natural",
+        "langauge",
+        "hast",
+        "nlcst",
+        "maintenance-fork"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/rehype-retext/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/rehype-retext/-/rehype-retext-1.0.0.tgz",
+      "baselineIntegrity": "sha512-XzmlRHWk3cfdSRMthXc4fMJVyN9SM41aeR3NhyxVFmd4vLlvEPZ3S7LOB4HLmNBYDhxDyDZzSZcCzPDT+m52jA==",
+      "expectedSha512": "d0417039c5c75b3407288697dde1d2ea2950fbe6494df4626366c46a03b64beab9735be2417c50670fc02df8b495e6457b5f67216ad2c9a6bd452edf146c0ad3",
+      "tag": "docs-stackline-rehype-retext-v1.0.1"
+    }
+  ]
+}
