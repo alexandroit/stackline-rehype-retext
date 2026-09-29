@@ -1,0 +1,22 @@
+{
+  "upstream": "rehype-retext",
+  "fork": "@stackline/rehype-retext",
+  "repository": "alexandroit/stackline-rehype-retext",
+  "upstreamRepository": "rehypejs/rehype-retext",
+  "upstreamVersion": "3.0.2",
+  "sourceCommit": "c28f2c251b06f5edbc4fb046bf462c9847a6c11c",
+  "upstreamIntegrity": "sha512-9Q2JyXBBnXQfwVhrp4/YPGY2GMC2uiSgW0V3WANT3md1lJD5M2V+jlvvQVTu6tFhA1Ap4a2v0zZDZffkND0tAw==",
+  "status": "source-ready",
+  "files": {
+    "license": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d",
+    "index.js": "e88523889dc99a1c9164f31e13a871033fd93943f4dc3b97e1b6b3e6039b9f67",
+    "lib/index.js": "517d2923e8c690dadae0910ca3700b4727f1e8e680863811134b6a8f7707299e",
+    "package.json": "c96c9fe6cb31ac8d040f9b1e60100dc79260c0add804e52cb7b684ca33b2ae95",
+    "readme.md": "931f953708f2d93866c5a1252fdb47a2fca55029e79668ac38e8d92d9f9448be",
+    "index.d.ts": "5d34128c9b6f2a269e139802622d3e4d0456f1242c318ae84de9afee960c165a",
+    "lib/index.d.ts": "18d0357b6507d339ccc4b138a8b499552b7966c7ea7143ebc127a382718558cc"
+  },
+  "allowedRuntimeChanges": [],
+  "testCommand": "node --conditions development test.js",
+  "strategy": "Published upstream files, including generated declarations, are preserved and checked against SHA-256. Functional tests run against source and the extracted final package. Changes to published runtime files require an explicit reviewed allowlist."
+}
