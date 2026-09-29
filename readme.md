@@ -1,28 +1,52 @@
 # @stackline/rehype-retext
 
-Independent maintenance fork of `rehype-retext@3.0.2`, preserving its API and published type declarations.
+> rehype plugin to transform to retext.
 
-```sh
+[![npm version](https://img.shields.io/npm/v/@stackline/rehype-retext.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/rehype-retext)
+[![license](https://img.shields.io/npm/l/@stackline/rehype-retext.svg?style=flat-square)](https://github.com/alexandroit/stackline-rehype-retext)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-rehype-retext-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-rehype-retext)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/rehype-retext/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/rehype-retext/)** | **[npm](https://www.npmjs.com/package/@stackline/rehype-retext)** | **[Issues](https://github.com/alexandroit/stackline-rehype-retext/issues)** | **[Repository](https://github.com/alexandroit/stackline-rehype-retext)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/rehype-retext` is the Stackline-maintained distribution of `rehype-retext@3.0.2`. It is an independent continuation of [rehype-retext](https://github.com/rehypejs/rehype-retext); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/rehype-retext@1.0.1` |
+| API target | `rehype-retext@3.0.2` |
+| Supported Node.js | `See supported framework requirements` |
+| License | `MIT` |
+| Module type | `module` |
+| Main entry | `index.js` |
+| Types | `index.d.ts` |
+| Runtime dependencies | `unified, @types/hast, @types/unist, hast-util-to-nlcst` |
+
+## Installation
+
+```bash
 npm install @stackline/rehype-retext
-# Keep existing imports:
-npm install rehype-retext@npm:@stackline/rehype-retext@1.0.0
 ```
 
-[Stackline](https://alexandro.net/) · [Issues](https://github.com/alexandroit/stackline-rehype-retext/issues) · [Community](https://www.reddit.com/r/Stackline/)
+Preserve existing imports and plugin resolution with an npm alias:
 
-See [UPSTREAM.md](UPSTREAM.md) for source identity and issue review, and [CHANGELOG.md](CHANGELOG.md) for maintenance changes. Functional tests also run against the final npm tarball; releases are published from GitHub Actions with provenance.
+```bash
+npm install rehype-retext@npm:@stackline/rehype-retext
+```
 
-## Upstream documentation
+## Usage and API reference
 
-# rehype-retext
+### rehype-retext
 
-[![Build][build-badge]][build]
-[![Coverage][coverage-badge]][coverage]
-[![Downloads][downloads-badge]][downloads]
-[![Size][size-badge]][size]
-[![Sponsors][sponsors-badge]][collective]
-[![Backers][backers-badge]][collective]
-[![Chat][chat-badge]][chat]
 
 **[rehype][]** plugin to support **[retext][]**.
 
@@ -76,7 +100,7 @@ This package is [ESM only](https://gist.github.com/sindresorhus/a39789f98801d908
 In Node.js (version 12.20+, 14.14+, or 16.0+), install with [npm][]:
 
 ```sh
-npm install rehype-retext
+npm install @stackline/rehype-retext
 ```
 
 In Deno with [Skypack][]:
@@ -116,7 +140,7 @@ import {unified} from 'unified'
 import rehypeParse from 'rehype-parse'
 import rehypePresetMinify from 'rehype-preset-minify'
 import rehypeStringify from 'rehype-stringify'
-import rehypeRetext from 'rehype-retext'
+import rehypeRetext from '@stackline/rehype-retext'
 import retextEnglish from 'retext-english'
 import retextIndefiniteArticle from 'retext-indefinite-article'
 import retextRepeatedWords from 'retext-repeated-words'
@@ -227,7 +251,7 @@ abide by its terms.
 
 [MIT][license] © [Titus Wormer][author]
 
-<!-- Definitions -->
+
 
 [build-badge]: https://github.com/rehypejs/rehype-retext/workflows/main/badge.svg
 
@@ -292,3 +316,22 @@ abide by its terms.
 [retext-readability]: https://github.com/retextjs/retext-readability
 
 [hast-util-to-nlcst]: https://github.com/syntax-tree/hast-util-to-nlcst
+
+## Credits and original authors
+
+- Original project: [rehype-retext](https://github.com/rehypejs/rehype-retext).
+- Titus Wormer.
+- Copyright (c) 2016 Titus Wormer <tituswormer@gmail.com>.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
